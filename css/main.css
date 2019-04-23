@@ -118,7 +118,7 @@ textarea {
      text-align: center;
      position: relative;
      /*top: -195px;*/
-     top: -180px;
+     top: -195px;
      font-family: "Tempus Sans itc","Brush Script Std", chiller, arial;
      color: #ca4248;
      font-size: 80px !important;
@@ -128,10 +128,10 @@ textarea {
    #metalman {
      position: relative;
      align: center;
-     width: 5.5em;
-     height: 5.5em;
+     width: 7em;
+     height: 7em;
      top: -40px;
-     left: 450px;
+     left: 10px;
    }
 
    #idiomas {
@@ -139,19 +139,31 @@ textarea {
      display: table-cell;
      padding: 10px 0 0 10px;
      font-size: 13px;
+     left: 120px;
    }
 
-   a.english{
+   a.english {
      position: relative;
      display: table-cell;
      text-decoration: none;
    }
 
-   a.gaelic{
+   a.gaelic {
      position: relative;
      display: table-cell;
      padding-left: 8px;
      text-decoration: none;
+   }
+
+   nav ul a {
+     text-decoration: none;
+     color: white;
+     border: 1px solid red;
+   }
+
+   nav {
+     background-color: orange;
+     height: 70px;
    }
 
 
