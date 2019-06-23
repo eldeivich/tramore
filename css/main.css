@@ -555,12 +555,23 @@ input[type="submit"] {
 }
 
 @media screen and (max-width: 800px) {
+
+  .menu {
+    width: 100%;
+  }
+
+  .menu-icon {
+    position: absolute;
+    left: 332px;
+  }
+
   nav {
     position: absolute;
     top: 131px;
     left: 0;
     background: #000;
     width: 100%;
+    z-index: 2;
     display: none;
   }
 
@@ -577,9 +588,8 @@ input[type="submit"] {
     padding-top: 38px;
   }
 
-  #intro {
-    position: absolute;
-    top: 400px;
+  .contenedor.titulo {
+    margin: -84px;
   }
 
   nav ul li {
@@ -593,6 +603,8 @@ input[type="submit"] {
 
   #intro h1 {
     font-size: 37px;
+    padding-top: 45px;
+    margin-bottom: 10px;
   }
 
   #intro p {
@@ -601,6 +613,19 @@ input[type="submit"] {
     line-height: 20px;
     width: 100%;
     margin: auto;
+  }
+
+  #intro .botones {
+    margin-top: 23px;
+  }
+
+  #intro .botones a {
+    padding: 2px 9px;
+    margin-right: 7px;
+  }
+
+  .monologo {
+    display: none;
   }
 
   #intro::after {
@@ -613,6 +638,21 @@ input[type="submit"] {
     background: rgba(0,0,0,0.6);
     z-index: -1;
     top: 59px;
+  }
+
+  #nuestra-historia {
+    position: absolute;
+    top: 342px;
+  }
+
+  #menu {
+    position: absolute;
+    top: 840px;
+  }
+
+  #contacto {
+    position: absolute;
+    top: 1876px;
   }
 }
 
